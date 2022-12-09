@@ -1,0 +1,33 @@
+    .main {
+    margin-top: 18vh;
+    
+    .main_text {
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+        background-color: var(--main-color);
+        font-size: calc(var(--index)*0.8);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: calc(var(--index)*1.7);
+    }
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10%;
+        align-items:center;
+        justify-content: center;
+        caret-color: transparent;
+        padding-bottom: 5vh;
+        box-shadow: inset 0 0 30px black, 0 0 0 black;
+        img {
+            margin-top: 5vh;
+            width: calc(var(--index)*12);
+            height: calc(var(--index)*18);
+            
+        }
+    }
+     
+    
+    
+}

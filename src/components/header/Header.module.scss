@@ -1,0 +1,37 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 14vh;
+    background-color: rgba(247,247,247, 0.9);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+        position: relative;
+        left: 1rem;
+      }
+      .navigate > ul{
+        display: flex;
+        gap: 2rem;
+        padding-right: 2rem;
+      }
+      li {
+        transition: all .3s;
+      }
+      li:hover {
+        transform: scale(1.2);
+      }
+  } 
+  
+  @media (max-width: 800px) {
+   .header {
+      display: block;
+    }
+    .navigate > ul {
+      flex-wrap: wrap;
+    }
+  }
+  
+  

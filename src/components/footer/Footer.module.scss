@@ -1,0 +1,33 @@
+.footer  {
+    position: relative;
+    margin-top: 15vh;
+    padding: 2%;
+    bottom: 0;
+    background-color: var(--main-color);
+    display: flex;
+    
+    .content {
+        margin-left: 10%;
+        span {
+            font-size: calc(var(--index)*1.1);
+            color: white;
+            
+        }
+        p {
+            font-size: calc(var(--index)*0.5);
+        }
+        strong {
+            color: white;
+
+        }
+    }
+    .contacts {
+        margin-top: 2%;
+    }
+    .conf {
+        display: flex;
+        margin-left: 10%;
+        align-items: flex-end;
+    }
+
+  }

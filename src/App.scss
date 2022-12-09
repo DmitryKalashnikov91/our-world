@@ -1,0 +1,22 @@
+:root {
+  --index: calc(1vw + 1vh); 
+  --main-color: #0284c7
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+p {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(0, 27, 163);
+}
+
