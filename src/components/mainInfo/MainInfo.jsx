@@ -1,5 +1,5 @@
+import IMAGES from '../../constants/Images';
 import styles from './Main.module.scss';
-import IMAGES from '../../assets/Images';
 
 const MainInfo = () => {
     return (
