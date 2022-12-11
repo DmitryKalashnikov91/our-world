@@ -1,3 +1,5 @@
+@import "~video-react/styles/scss/video-react";
+
 :root {
   --index: calc(1vw + 1vh); 
   --main-color: #0284c7
@@ -20,3 +22,41 @@ a {
   color: rgb(0, 27, 163);
 }
 
+button {
+  padding: 20px 30px;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: 2px solid #103F88;
+font-size: 20px;
+color: #103F88;
+border-radius: 50px;
+background: none;
+transition: all 0.3s;
+}
+button:hover {
+  border: 2px solid #FF5F04;
+  color: #FF5F04;
+  cursor: pointer;
+}
+
+.media {
+  margin-top: 5vh;
+}
+.ressurses {
+  margin-top: 5vh;
+  text-align: center;
+  .links a{
+    margin: 10vw;
+  }
+}
+
+
+@media (max-width: 800px) {
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
+}

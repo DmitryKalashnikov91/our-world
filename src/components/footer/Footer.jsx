@@ -27,7 +27,12 @@ const Footer = () => {
                 </div>
             </section>
             <div className={styles.conf}>
-                <a href='/'>Политика конфиденциальности</a>
+                <a
+                    href='https://xn-----7kc7aqdefshzj3d.xn--p1ai/page27721924.html'
+                    target='_blank'
+                    rel='noreferrer'>
+                    Политика конфиденциальности
+                </a>
             </div>
         </footer>
     );

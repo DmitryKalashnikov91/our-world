@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 import LINKS from '../../constants/Links';
+import MobileMenu from '../mobileMenu/MobileMenu';
 import styles from './Header.module.scss';
 
 const Header = () => {
@@ -16,6 +17,8 @@ const Header = () => {
                     ))}
                 </ul>
             </nav>
+
+            <MobileMenu />
         </header>
     );
 };

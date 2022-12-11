@@ -10,6 +10,12 @@ const AboutProject = () => {
                     &quot;Герои России&quot;
                 </span>
             </div>
+            <div className={styles.content}>
+                <span>
+                    Сбор средств на установку скульптурной группы в Луганске, Мариуполе и Москве
+                </span>
+                <button>Принять участие</button>
+            </div>
             <div className={styles.background}></div>
         </section>
     );

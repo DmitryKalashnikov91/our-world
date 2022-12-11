@@ -8,6 +8,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    caret-color: transparent;
     .logo {
         position: relative;
         left: 1rem;
@@ -28,9 +29,10 @@
   @media (max-width: 800px) {
    .header {
       display: block;
+      background: none;
     }
-    .navigate > ul {
-      flex-wrap: wrap;
+    .navigate {
+      display: none;
     }
   }
   
