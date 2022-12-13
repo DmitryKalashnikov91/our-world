@@ -1,8 +1,27 @@
-.media {
-    position: relative;
-    margin:  20vh 0;
-    width: calc(var(--index)*32);
-    height: calc(var(--index)*17.6);
-    border: 4px solid var(--main-color);
-    border-radius: 5px;
+.about_us {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    .media {
+        position: relative;
+        margin:  20vh 0;
+        width: calc(var(--index)*32);
+        height: calc(var(--index)*11.9);
+    }
+    .description {
+        text-align: center;
+        h3 {
+           padding-top: 20vh;
+           
+        }
+        p {
+            color: var(--main-color);
+            padding-top: 1rem;
+        }
+    }
+}
+@media (max-width: 900px) {
+    .about_us {
+        flex-direction: column-reverse;
+    }
 }
