@@ -1,6 +1,8 @@
+import { useNavigate } from 'react-router-dom';
 import styles from './AboutProject.module.scss';
 
 const AboutProject = () => {
+    const navigate = useNavigate();
     return (
         <section className={styles.about}>
             <div className={styles.sub_title}>
@@ -18,7 +20,7 @@ const AboutProject = () => {
                     Все работы – оригинального характера, с указанием имени автора (художника,
                     скульптора).
                 </p>
-                <button>Принять участие</button>
+                <button onClick={() => navigate('/contacts')}>Принять участие</button>
                 <p className={styles.content_text}>
                     Сбор средств осуществляется на благотворительной (безвозмездной) основе, путем
                     пожертвований частных лиц и организаций на расчетный счет БФ «РусПомощь» (в т.ч.

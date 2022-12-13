@@ -27,7 +27,16 @@
             
         }
     }
-     
+     .butterfly {
+        position: absolute;
+        z-index: 1;
+        top: 30vh;
+        left: 5vw;
+        width: calc(var(--index)*5);
+        height: calc(var(--index)*5);
+        background-size: cover ;
+        background-image: url('../../../public/images/butterfly.png');
+     }
     
     
 }

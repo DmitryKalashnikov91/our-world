@@ -30,6 +30,7 @@
         z-index: 3;
         button {
             margin-top: 15vh;
+            caret-color: transparent;
         }
         p {
             padding-top: 10vh;
@@ -37,8 +38,8 @@
             font-size: calc(var(--index)*1.1);
         }
         .content_text {
-            font-size: calc(var(--index)*1.1);
-            text-align:justify;
+            font-size: calc(var(--index)*0.9);
+            text-align:start;
             width: 61%;
 
         }

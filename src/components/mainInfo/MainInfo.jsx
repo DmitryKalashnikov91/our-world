@@ -7,6 +7,7 @@ const MainInfo = () => {
             <div className={styles.main_content}>
                 <div className={styles.main_text}>
                     <h1>ВСЕРОССИЙСКАЯ БЛАГОТВОРИТЕЛЬНАЯ АКЦИЯ</h1>
+                    <div className={styles.butterfly}></div>
                     <h2>
                         Установка скульптурных групп и монументов &quot;Дети Донбасса&quot; и
                         &quot;Героям России&quot;

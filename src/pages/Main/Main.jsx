@@ -1,11 +1,18 @@
 import MainInfo from '../../components/mainInfo/MainInfo';
+import { useNavigate } from 'react-router-dom';
 import { Player } from 'video-react';
 import video from '../../assets/videos/video1.mp4';
 
 const Main = () => {
+    const navigate = useNavigate();
+
     return (
         <>
             <MainInfo />
+            <div className='main_button'>
+                <button onClick={() => navigate('/contacts')}>Стать участником акции</button>
+            </div>
+
             <section className='media'>
                 <Player playsInline src={video} />
             </section>

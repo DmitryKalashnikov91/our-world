@@ -43,7 +43,7 @@ button:hover {
 }
 
 .media {
-  margin-top: 5vh;
+  margin-top: 10vh;
 }
 .ressurses {
 
@@ -54,6 +54,22 @@ display: flex;
 justify-content: space-around;
     
   }
+}
+.main_button {
+  position: relative;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  top: 5vh;
+  button {
+    background-color:#FF5F04;
+    color: white;
+    border: none;
+  }
+  button:hover {
+    background-color: #FF9519;
+  }
+
 }
 
 
