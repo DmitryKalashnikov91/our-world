@@ -31,6 +31,17 @@
         button {
             margin-top: 15vh;
         }
+        p {
+            padding-top: 10vh;
+            color:var(--main-color);
+            font-size: calc(var(--index)*1.1);
+        }
+        .content_text {
+            font-size: calc(var(--index)*1.1);
+            text-align:justify;
+            width: 61%;
+
+        }
 
     }
 }
