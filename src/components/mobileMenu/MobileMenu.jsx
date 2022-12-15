@@ -1,4 +1,6 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
+
 import LINKS from '../../constants/Links';
 import styles from './MobileMenu.module.scss';
 import { BiMenu } from 'react-icons/bi';
@@ -17,7 +19,12 @@ const MobileMenu = () => {
                     <ul>
                         {LINKS.map(({ id, path, value }) => (
                             <li key={id}>
-                                <Link to={path} onClick={() => setOpen(false)}>
+                                <Link
+                                    activeClass='nav-active'
+                                    spy={true}
+                                    smooth={true}
+                                    to={path}
+                                    onClick={() => setOpen(false)}>
                                     {value}
                                 </Link>
                             </li>

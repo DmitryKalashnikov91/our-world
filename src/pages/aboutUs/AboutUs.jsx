@@ -4,7 +4,7 @@ import styles from './AboutUs.module.scss';
 
 const AboutUs = () => {
     return (
-        <div className={styles.about_us}>
+        <div className={styles.about_us} id='aboutUs'>
             <section className={styles.media}>
                 <Player playsInline src={media} />
             </section>

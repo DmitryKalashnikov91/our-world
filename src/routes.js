@@ -3,7 +3,7 @@ import Header from './components/header/Header';
 import MainInfo from './components/mainInfo/MainInfo';
 import AboutProject from './pages/aboutProject/AboutProject';
 import AboutUs from './pages/aboutUs/AboutUs';
-import Contacts from './pages/contacts/Contacts';
+import Contacts from './pages/contacts/PayForm';
 import Main from './pages/Main/Main';
 import Partners from './pages/partners/Partners';
 

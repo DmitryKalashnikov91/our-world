@@ -1,4 +1,3 @@
-import Header from './components/header/Header';
 import './App.scss';
 import { useRoutes } from 'react-router-dom';
 import routes from './routes';
@@ -9,7 +8,6 @@ function App() {
     const elements = useRoutes(routes);
     return (
         <div className='App'>
-            <Header />
             {elements}
             <Footer />
         </div>

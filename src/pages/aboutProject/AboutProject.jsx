@@ -4,7 +4,7 @@ import styles from './AboutProject.module.scss';
 const AboutProject = () => {
     const navigate = useNavigate();
     return (
-        <section className={styles.about}>
+        <section className={styles.about} id='project'>
             <div className={styles.sub_title}>
                 <h2>Всероссийская благотворительная акция</h2>
                 <span>

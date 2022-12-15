@@ -2,9 +2,11 @@
     display: flex;
     align-items: center;
     gap: 10%;
+    max-width: 94%;
+    height: 100%;
     .media {
         position: relative;
-        margin:  20vh 0;
+        margin:  30vh 0;
         width: calc(var(--index)*32);
         height: calc(var(--index)*11.9);
     }

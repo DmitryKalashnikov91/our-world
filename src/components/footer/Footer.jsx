@@ -3,7 +3,7 @@ import styles from './Footer.module.scss';
 
 const Footer = () => {
     return (
-        <footer className={styles.footer}>
+        <footer className={styles.footer} id='contacts'>
             <div className={styles.logo}>
                 <img
                     src='https://thumb.tildacdn.com/tild3232-3134-4133-a431-373835393739/-/resize/476x/-/format/webp/21__.png'

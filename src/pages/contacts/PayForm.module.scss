@@ -1,0 +1,28 @@
+
+    .container {
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+        justify-content: center;
+        caret-color: transparent;
+
+        .pay_form {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            align-items:center;
+            justify-content: center;
+            padding: 2rem;
+            gap: 2rem;
+            .payBtn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                white-space: nowrap;
+                color: white;
+                border-radius: 40px;
+            }
+        }
+    }
+    
+    

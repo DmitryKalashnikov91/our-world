@@ -1,17 +1,22 @@
 import MainInfo from '../../components/mainInfo/MainInfo';
-import { useNavigate } from 'react-router-dom';
+
 import { Player } from 'video-react';
 import video from '../../assets/videos/video1.mp4';
+import forum from '../../assets/videos/forum141222.mp4';
+import AboutProject from '../aboutProject/AboutProject';
+import AboutUs from '../aboutUs/AboutUs';
+import Header from '../../components/header/Header';
+import MainButton from '../../components/ui/MainButton';
 
 const Main = () => {
-    const navigate = useNavigate();
-
     return (
         <>
+            <Header />
+            <section className='forum' id='main'>
+                <video muted autoPlay preload='auto' loop playsInline src={forum} />
+            </section>
             <MainInfo />
-            <div className='main_button'>
-                <button onClick={() => navigate('/contacts')}>Стать участником акции</button>
-            </div>
+            <MainButton title='Поддержать проект' />
 
             <section className='media'>
                 <Player playsInline src={video} />
@@ -30,6 +35,8 @@ const Main = () => {
                     </a>
                 </div>
             </section>
+            <AboutProject />
+            <AboutUs />
         </>
     );
 };

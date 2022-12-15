@@ -1,4 +1,6 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+
+import { Link } from 'react-scroll';
 import logo from '../../assets/logo.png';
 import LINKS from '../../constants/Links';
 import MobileMenu from '../mobileMenu/MobileMenu';
@@ -12,7 +14,9 @@ const Header = () => {
                 <ul>
                     {LINKS.map(({ id, path, value }) => (
                         <li key={id}>
-                            <Link to={path}>{value}</Link>
+                            <Link activeClass='nav-active' spy={true} smooth={true} to={path}>
+                                {value}
+                            </Link>
                         </li>
                     ))}
                 </ul>

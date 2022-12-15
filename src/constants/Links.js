@@ -1,27 +1,33 @@
 const LINKS = [
     {
         id: 1,
-        path: '/',
+        path: 'main',
         value: 'Главная',
     },
     {
         id: 2,
-        path: '/project',
-        value: 'О проекте',
+        path: 'images',
+        value: 'Эскизы',
     },
     {
         id: 3,
-        path: '/aboutUs',
+        path: 'project',
+        value: 'О проекте',
+    },
+
+    {
+        id: 4,
+        path: 'aboutUs',
         value: 'О нас',
     },
     {
-        id: 4,
-        path: '/partners',
+        id: 5,
+        path: 'partners',
         value: 'Попечительский совет',
     },
     {
-        id: 5,
-        path: '/contacts',
+        id: 6,
+        path: 'contacts',
         value: 'Контакты',
     },
 ];
