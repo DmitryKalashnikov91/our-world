@@ -13,10 +13,10 @@
             text-align: center;
         }
         button {
-            position: absolute;
+            position: relative;
             z-index: 4;
-            top: -80vh;
             background:none;
+            top: -20vw;
             color: var(--main-color);
             border:2px solid #FF5F04;
         }
