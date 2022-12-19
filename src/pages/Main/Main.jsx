@@ -1,6 +1,6 @@
 import MainInfo from '../../components/mainInfo/MainInfo';
 
-import forum from '../../assets/videos/forum141222.mp4';
+import forum from '../../media/forum141222.mp4';
 import AboutProject from '../aboutProject/AboutProject';
 import AboutUs from '../aboutUs/AboutUs';
 import Header from '../../components/header/Header';

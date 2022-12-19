@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './PayForm.module.scss';
-import qr from '../../assets/QR-code.png';
+import qr from '../../media/QR-code.png';
 import Modal from '../../components/ui/Modal';
 import PayValues from '../../constants/PayValues';
 

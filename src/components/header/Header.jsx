@@ -1,7 +1,7 @@
 // import { Link } from 'react-router-dom';
 
 import { Link } from 'react-scroll';
-import logo from '../../assets/logo.png';
+import logo from '../../media/logo.png';
 import LINKS from '../../constants/Links';
 import MobileMenu from '../mobileMenu/MobileMenu';
 import styles from './Header.module.scss';
