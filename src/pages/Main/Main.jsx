@@ -1,12 +1,11 @@
 import MainInfo from '../../components/mainInfo/MainInfo';
 
-import { Player } from 'video-react';
-import video from '../../assets/videos/video1.mp4';
 import forum from '../../assets/videos/forum141222.mp4';
 import AboutProject from '../aboutProject/AboutProject';
 import AboutUs from '../aboutUs/AboutUs';
 import Header from '../../components/header/Header';
 import MainButton from '../../components/ui/MainButton';
+import Partners from '../partners/Partners';
 
 const Main = () => {
     return (
@@ -18,9 +17,6 @@ const Main = () => {
             <MainInfo />
             <MainButton title='Поддержать проект' />
 
-            <section className='media'>
-                <Player playsInline src={video} />
-            </section>
             <section className='ressurses'>
                 <h3>Рессурсы организаторов:</h3>
                 <div className='links'>
@@ -37,6 +33,7 @@ const Main = () => {
             </section>
             <AboutProject />
             <AboutUs />
+            <Partners />
         </>
     );
 };

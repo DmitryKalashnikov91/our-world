@@ -1,7 +1,22 @@
-import React from 'react';
+import styles from './Partners.module.scss';
+import PARTNERS from '../../constants/Partners';
 
 const Partners = () => {
-    return <div>Partners</div>;
+    console.log(PARTNERS);
+    return (
+        <div id='partners'>
+            <div className='sub_title'>
+                <h3>Проект поддержали:</h3>
+            </div>
+            <div className={styles.partners_container}>
+                {PARTNERS.map(({ id, path, alt }) => (
+                    <div key={id} className={styles.avatars}>
+                        <img src={path} alt={alt} />
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
 };
 
 export default Partners;

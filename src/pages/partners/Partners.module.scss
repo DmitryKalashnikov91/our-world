@@ -1,0 +1,15 @@
+.partners_container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+
+    .avatars img {
+        width: 150px;
+        height: auto;
+        
+    }
+}
+
